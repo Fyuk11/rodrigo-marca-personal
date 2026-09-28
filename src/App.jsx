@@ -5,6 +5,7 @@ import Problem from './components/Problem';
 import Services from './components/Services';
 import BannerSlide from './components/BannerSlide';
 import Cases from './components/Cases';
+import Process from './components/Process';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 
@@ -26,6 +27,7 @@ export default function App() {
         <Services />
         <BannerSlide />
         <Cases />
+        <Process />
         <Faq />
       </main>
       <Footer />
