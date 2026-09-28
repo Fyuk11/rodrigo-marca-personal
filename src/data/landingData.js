@@ -6,9 +6,9 @@ export const landingData = {
     phone: phone,
     whatsappUrl: `https://wa.me/${phone}?text=${encodeURIComponent('Hola Rodrigo, quiero hacerte una consulta por mi marca personal.')}`,
     socials: {
-      instagram: "#",
-      tiktok: "#",
-      linkedin: "https://www.linkedin.com/in/rodrigo-gomez",
+      instagram: "https://www.instagram.com/rodrigomezdigital/",
+      tiktok: "#https://www.tiktok.com/@rodrigomezdigital",
+      linkedin: "https://www.linkedin.com/in/rodrigo-gomez-digital/",
       github: "https://github.com",
     }
   },
