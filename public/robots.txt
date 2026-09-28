@@ -22,4 +22,4 @@ User-agent: Bytespider
 Allow: /
 
 # Ubicación del Sitemap (reemplazá con tu dominio final de Netlify o propio)
-Sitemap: https://rodrigogomez.netlify.app/sitemap.xml
+Sitemap: https://rodrigomezdigital.netlify.app/sitemap.xml

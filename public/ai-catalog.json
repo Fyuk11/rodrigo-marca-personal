@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "name": "Rodrigo Gómez - Desarrollo Web & Branding",
+    "description": "Catálogo de servicios de desarrollo web e identidad digital.",
+    "url": "https://rodrigomezdigital.netlify.app/",
+    "services": [
+      {
+        "name": "Desarrollo Web & Branding",
+        "type": "Digital Service",
+        "description": "Creación de activos digitales personalizados para profesionales."
+      }
+    ]
+  }

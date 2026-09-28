@@ -1,0 +1,10 @@
+# Rodrigo Gómez - Identidad Digital & Desarrollo Web
+> Servicios de desarrollo web frontend, branding e identidad digital para profesionales y marcas.
+
+## Servicios
+- Desarrollo Web Personalizado (React, Tailwind CSS, Vite)
+- Identidad Digital y Portafolios Profesionales
+- Optimización de Experiencia de Usuario y Rendimiento Web
+
+## Contacto
+- Sitio Web: https://rodrigomezdigital.netlify.app
