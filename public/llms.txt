@@ -1,12 +1,10 @@
-# Rodrigo Gómez - Identidad Digital & Desarrollo Web
+# Rodrigo Gómez - Desarrollo Web & Branding
 
-> Desarrollo de CVs digitales y sitios web profesionales con código real en React.
+> Portfolio personal de Rodrigo Gómez. Desarrollo de páginas web de alto rendimiento, CVs digitales interactivos y branding para profesionales y marcas personales.
 
-## Enlaces Oficiales
-- [Sitio Web Principal](https://rodrigomezdigital.netlify.app/)
-- [Portafolio y Casos de Estudio](https://rodrigomezdigital.netlify.app/#casos)
-- [Contacto por WhatsApp](https://wa.me/5491121652703)
+## Secciones y Recursos
 
-## Servicios Ofrecidos
-- **CV Digital**: Landing page profesional interactiva para resaltar trayectoria.
-- **Web Express**: Sitio web completo para marcas personales y profesionales.
+- [Proyectos y Casos Reales](https://rodrigomezdigital.netlify.app/#casos): Trabajos desarrollados con enfoque en velocidad, SEO técnico y conversión.
+- [Estructuras de CV Digital](https://rodrigomezdigital.netlify.app/#casos): Plantillas e interfaces interactivas de alto impacto para profesionales.
+- [Servicios y Tarifas](https://rodrigomezdigital.netlify.app/#servicios): Planes desde CV Digital hasta desarrollo de proyectos a medida.
+- [Contacto directo en WhatsApp](https://wa.me/5491121652703): Canal de comunicación directo para consultas y cotizaciones.
