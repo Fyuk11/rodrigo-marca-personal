@@ -18,7 +18,7 @@ export const landingData = {
       title: "Traducción Creativa",
       category: "Web Corporativa",
       description: "Rediseño completo y desarrollo inmersivo para una agencia de traducción. Enfocado en rendimiento, SEO técnico y una interfaz fluida que transmite autoridad y profesionalismo.",
-      image: "/traduccion-creativa.png", // Reemplazá con la captura de la web
+      image: "/traduccion-creativa.webp", // Actualizado a WebP
       link: "https://traduccioncreativa.com/",
       type: "featured"
     },
@@ -27,7 +27,7 @@ export const landingData = {
       title: "Portfolio Interactivo",
       category: "Galería & Casos",
       description: "Sistema de visualización de trabajos con filtrado dinámico y transiciones suaves para la misma agencia.",
-      image: "/portfolio-916.png", // Reemplazá con la captura del portfolio
+      image: "/portfolio-916.webp", // Actualizado a WebP
       link: "https://portfolio-traduccion-creativa.netlify.app/",
       type: "secondary"
     }
@@ -38,7 +38,7 @@ export const landingData = {
       title: 'Corporativo & Legal', 
       desc: 'Autoridad, elegancia y sobriedad para abogados, médicos y ejecutivos.',
       tag: 'Ejecutivo',
-      image: '/cv-abogad-corp-legal-916.png', // Captura de pantalla de este CV
+      image: '/cv-abogad-corp-legal-916.webp', // Actualizado a WebP
       url: 'https://cv-web-plantilla-4.netlify.app/'
     },
     { 
@@ -46,7 +46,7 @@ export const landingData = {
       title: 'Editorial & Design', 
       desc: 'Diseño audaz de alto contraste para directores creativos y diseñadores.',
       tag: 'Creativo',
-      image: '/cv-design-916.png', // Captura de pantalla de este CV
+      image: '/cv-design-916.webp', // Actualizado a WebP
       url: 'https://cv-web-plantilla-design.netlify.app'
     },
     { 
@@ -54,7 +54,7 @@ export const landingData = {
       title: 'Creator & Community', 
       desc: 'Estructura orientada a métricas, cursos y comunidades para marcas personales.',
       tag: 'Marca Personal',
-      image: '/cv-creator-916.png', // Captura de pantalla de este CV
+      image: '/cv-creator-916.webp', // Actualizado a WebP
       url: 'https://cv-web-plantilla-creator.netlify.app'
     }
   ],

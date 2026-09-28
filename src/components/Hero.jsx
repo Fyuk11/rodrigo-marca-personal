@@ -13,18 +13,22 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-28 sm:pt-36 pb-12 bg-[var(--bg)] transition-colors duration-300">
       
-      {/* Imagen de fondo con overlay dinámico */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
-        <img 
-          src="/hero-16-9.webp" 
-          alt="Background" 
-          fetchPriority="high"
-          loading="eager"
-          className="w-full h-full object-cover opacity-20 dark:opacity-50 mix-blend-luminosity"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-[var(--bg)]/40 via-[var(--bg)]/80 to-[var(--bg)]"></div>
-        <div className="absolute top-1/4 left-1/4 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-[var(--accent)]/15 rounded-full blur-[100px] sm:blur-[120px] pointer-events-none"></div>
-      </div>
+     {/* Imagen de fondo con overlay dinámico */}
+    <div className="absolute inset-0 z-0 pointer-events-none">
+      <img 
+        src="/hero-16-9.webp" 
+        alt="" 
+        aria-hidden="true"
+        width="1920"
+        height="1080"
+        fetchPriority="high"
+        loading="eager"
+        decoding="async"
+        className="w-full h-full object-cover opacity-20 dark:opacity-50 mix-blend-luminosity"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-[var(--bg)]/40 via-[var(--bg)]/80 to-[var(--bg)]"></div>
+      <div className="absolute top-1/4 left-1/4 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-[var(--accent)]/15 rounded-full blur-[100px] sm:blur-[120px] pointer-events-none"></div>
+    </div>
 
       <div className="relative z-10 px-4 sm:px-8 max-w-container mx-auto w-full">
         <div className="flex flex-col items-start space-y-6 sm:space-y-8 max-w-5xl">

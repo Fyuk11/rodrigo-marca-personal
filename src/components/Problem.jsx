@@ -42,8 +42,12 @@ export default function Comparison() {
               {/* Preview PDF (Imagen) */}
               <div className="relative aspect-video rounded-xl bg-[var(--bg-alt)] border border-[var(--border)] overflow-hidden mb-6 group">
                 <img 
-                  src="/cv-imagenpdf.png" // Reemplazá con la ruta de tu imagen de CV en PDF
+                  src="/cv-imagenpdf.webp" 
                   alt="CV plano en formato PDF" 
+                  width="800"
+                  height="450"
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover object-top opacity-85 group-hover:opacity-100 transition-opacity duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
@@ -66,44 +70,46 @@ export default function Comparison() {
                   <span className="w-1.5 h-1.5 rounded-full bg-red-500 shrink-0" /> Queda traspapelado en la carpeta de descargas.
                 </li>
               </ul>
-            </div>
-          </motion.div>
+              </div>
+              </motion.div>
 
-          {/* OPCIÓN 2: ACTIVO DIGITAL / WEB */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="p-6 sm:p-8 rounded-2xl bg-[var(--surface)] border-2 border-[var(--accent)] flex flex-col justify-between transition-all shadow-md relative"
-          >
-            <div className="absolute top-0 right-0 bg-[var(--accent)] text-white text-[10px] font-mono font-bold uppercase px-3 py-1 rounded-bl-xl">
-              Ventaja Competitiva
-            </div>
-
-            <div>
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center gap-2 text-xs font-mono uppercase text-[var(--accent)] font-bold">
-                  <CheckCircle2 className="w-4 h-4 text-[var(--accent)]" />
-                  Tu Activo Digital
+              {/* OPCIÓN 2: ACTIVO DIGITAL / WEB */}
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="p-6 sm:p-8 rounded-2xl bg-[var(--surface)] border-2 border-[var(--accent)] flex flex-col justify-between transition-all shadow-md relative"
+              >
+                <div className="absolute top-0 right-0 bg-[var(--accent)] text-white text-[10px] font-mono font-bold uppercase px-3 py-1 rounded-bl-xl">
+                  Ventaja Competitiva
                 </div>
-              </div>
 
-              {/* Preview Web (Video cel scrolleando) */}
-              <div className="relative aspect-video rounded-xl bg-[var(--bg-alt)] border border-[var(--border)] overflow-hidden mb-6 group">
-                <video 
-                  src="/Recorrido cv-web PC.mp4" // Reemplazá con la ruta de tu video
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline
-                  className="w-full h-full object-cover object-center"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
-                <span className="absolute bottom-3 left-3 text-[10px] font-mono text-white bg-[var(--accent)]/90 backdrop-blur-sm px-2.5 py-1 rounded font-bold shadow-sm">
-                  Experiencia Mobile Fluida 24/7
-                </span>
-              </div>
+                <div>
+                  <div className="flex items-center justify-between mb-6">
+                    <div className="flex items-center gap-2 text-xs font-mono uppercase text-[var(--accent)] font-bold">
+                      <CheckCircle2 className="w-4 h-4 text-[var(--accent)]" />
+                      Tu Activo Digital
+                    </div>
+                  </div>
+
+                  {/* Preview Web (Video cel scrolleando) */}
+                  <div className="relative aspect-video rounded-xl bg-[var(--bg-alt)] border border-[var(--border)] overflow-hidden mb-6 group">
+                    <video 
+                      autoPlay 
+                      loop 
+                      muted 
+                      playsInline
+                      preload="metadata"
+                      className="w-full h-full object-cover object-center"
+                    >
+                      <source src="/Recorrido cv-web.mp4" type="video/mp4" />
+                    </video>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
+                    <span className="absolute bottom-3 left-3 text-[10px] font-mono text-white bg-[var(--accent)]/90 backdrop-blur-sm px-2.5 py-1 rounded font-bold shadow-sm">
+                      Experiencia Mobile Fluida 24/7
+                    </span>
+                  </div>
 
               <h3 className="text-lg font-bold text-[var(--text)] mb-2">
                 Experiencia Web Interactiva

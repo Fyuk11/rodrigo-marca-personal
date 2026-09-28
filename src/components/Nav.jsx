@@ -37,28 +37,31 @@ export default function Nav() {
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-8 flex items-center justify-between">
           
-{/* Identidad / Logo */}
-<a href="#" className="flex items-center gap-3 group">
-  <div className="w-8 h-8 rounded-md overflow-hidden flex items-center justify-center border border-[var(--border)] group-hover:border-[var(--accent)] transition-colors shadow-sm">
-    <img 
-      src="/logo-marca-personal.png" 
-      alt="Logo Rodrigo Gómez" 
-      className="w-full h-full object-cover"
-      loading="eager"
-      fetchPriority="high"
-    />
-  </div>
+      {/* Identidad / Logo */}
+      <a href="#" className="flex items-center gap-3 group">
+        <div className="w-8 h-8 rounded-md overflow-hidden flex items-center justify-center border border-[var(--border)] group-hover:border-[var(--accent)] transition-colors shadow-sm">
+          <img 
+            src="/logo-marca-personal.webp" 
+            alt="Logo Rodrigo Gómez" 
+            width="32"
+            height="32"
+            className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </div>
 
-  <div className="flex flex-col">
-    <span className="font-bold text-sm tracking-wider text-[var(--text)] uppercase font-mono">
-      RODRIGO GÓMEZ
-    </span>
-    <span className="text-[10px] font-mono text-[var(--muted)] flex items-center gap-1.5">
-      <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] animate-pulse" />
-      Desarrollo & Branding
-    </span>
-  </div>
-</a>
+        <div className="flex flex-col">
+          <span className="font-bold text-sm tracking-wider text-[var(--text)] uppercase font-mono">
+            RODRIGO GÓMEZ
+          </span>
+          <span className="text-[10px] font-mono text-[var(--muted)] flex items-center gap-1.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] animate-pulse" />
+            Desarrollo & Branding
+          </span>
+        </div>
+      </a>
 
           {/* Acciones */}
           <div className="flex items-center gap-3">

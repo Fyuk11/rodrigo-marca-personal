@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, LayoutTemplate } from 'lucide-react';
-import { landingData } from '../data/landingData'; // Ajustá la ruta según tu estructura de carpetas
+import { landingData } from '../data/landingData';
 
 export default function Cases() {
   const { projects, cvTemplates } = landingData;
@@ -17,7 +17,6 @@ export default function Cases() {
         {/* Cabecera de sección */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="space-y-3">
-            
             <h2 className="font-display font-bold text-4xl sm:text-6xl text-[var(--text)] leading-none tracking-tight">
               Proyectos <br/><span className="text-[var(--muted)]">Destacados.</span>
             </h2>
@@ -46,6 +45,10 @@ export default function Cases() {
                   <img 
                     src={featuredProject.image} 
                     alt={featuredProject.title} 
+                    width="1280"
+                    height="720"
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover object-top opacity-90 group-hover:scale-105 transition-transform duration-700 ease-out" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -92,6 +95,10 @@ export default function Cases() {
                   <img 
                     src={secondaryProject.image} 
                     alt={secondaryProject.title} 
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover object-top opacity-90 group-hover:scale-105 transition-transform duration-700 ease-out" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
@@ -151,10 +158,14 @@ export default function Cases() {
                     <img 
                       src={item.image} 
                       alt={`Vista previa de plantilla ${item.title}`} 
+                      width="600"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-top opacity-90 group-hover:scale-105 transition-transform duration-500 ease-out"
                     />
 
-                 {/* Badge del estilo (Siempre legible con alto contraste) */}
+                    {/* Badge del estilo */}
                     <div className="absolute top-3 left-3 z-10">
                       <span className="text-white text-[10px] uppercase font-bold tracking-widest px-2.5 py-1 bg-black/80 backdrop-blur-md rounded-full border border-white/20 shadow-md">
                         {item.tag}

@@ -1,13 +1,22 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "name": "Rodrigo Gómez - Desarrollo Web & Branding",
-    "description": "Catálogo de servicios de desarrollo web e identidad digital.",
-    "url": "https://rodrigomezdigital.netlify.app/",
-    "services": [
-      {
-        "name": "Desarrollo Web & Branding",
-        "type": "Digital Service",
-        "description": "Creación de activos digitales personalizados para profesionales."
-      }
-    ]
-  }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Rodrigo Gómez - Identidad Digital",
+  "description": "Catálogo de servicios de desarrollo web y creación de marcas personales.",
+  "url": "https://rodrigomezdigital.netlify.app/",
+  "provider": {
+    "name": "Rodrigo Gómez",
+    "url": "https://rodrigomezdigital.netlify.app/"
+  },
+  "services": [
+    {
+      "name": "CV Digital",
+      "description": "Landing page profesional interactiva.",
+      "url": "https://rodrigomezdigital.netlify.app/"
+    },
+    {
+      "name": "Web Express",
+      "description": "Desarrollo web a medida en React para profesionales.",
+      "url": "https://rodrigomezdigital.netlify.app/"
+    }
+  ]
+}
