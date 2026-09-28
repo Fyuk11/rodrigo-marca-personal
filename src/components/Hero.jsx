@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Imagen de fondo con overlay dinámico */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img 
-          src="/public/hero-16-9.webp" 
+          src="/hero-16-9.webp" 
           alt="Background" 
           className="w-full h-full object-cover opacity-20 dark:opacity-50 mix-blend-luminosity"
         />

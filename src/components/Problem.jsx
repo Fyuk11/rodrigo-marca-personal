@@ -42,7 +42,7 @@ export default function Comparison() {
               {/* Preview PDF (Imagen) */}
               <div className="relative aspect-video rounded-xl bg-[var(--bg-alt)] border border-[var(--border)] overflow-hidden mb-6 group">
                 <img 
-                  src="/public/cv-imagenpdf.png" // Reemplazá con la ruta de tu imagen de CV en PDF
+                  src="/cv-imagenpdf.png" // Reemplazá con la ruta de tu imagen de CV en PDF
                   alt="CV plano en formato PDF" 
                   className="w-full h-full object-cover object-top opacity-85 group-hover:opacity-100 transition-opacity duration-300"
                 />
@@ -92,7 +92,7 @@ export default function Comparison() {
               {/* Preview Web (Video cel scrolleando) */}
               <div className="relative aspect-video rounded-xl bg-[var(--bg-alt)] border border-[var(--border)] overflow-hidden mb-6 group">
                 <video 
-                  src="/public/Recorrido cv-web PC.mp4" // Reemplazá con la ruta de tu video
+                  src="/Recorrido cv-web PC.mp4" // Reemplazá con la ruta de tu video
                   autoPlay 
                   loop 
                   muted 

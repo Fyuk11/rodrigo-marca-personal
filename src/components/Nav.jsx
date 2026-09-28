@@ -42,7 +42,7 @@ export default function Nav() {
   {/* Cuadro al 100% de la imagen */}
   <div className="w-8 h-8 rounded-md overflow-hidden flex items-center justify-center border border-[var(--border)] group-hover:border-[var(--accent)] transition-colors shadow-sm">
     <img 
-      src="/public/logo-marca-personal.png" 
+      src="/logo-marca-personal.png" 
       alt="Logo Rodrigo Gómez" 
       className="w-full h-full object-cover"
     />
