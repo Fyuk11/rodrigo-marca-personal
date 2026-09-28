@@ -62,7 +62,7 @@ export const landingData = {
     {
       id: "cv-digital",
       title: "CV Digital",
-      price: "$35 - $50",
+      price: "$35 - $50 USD",
       description: "Para profesionales que buscan trabajo y quieren destacar en las selecciones.",
       features: ["Copy persuasivo para reclutadores", "Branding simple y distinguido", "Optimizado para celulares", "Link listo para compartir"],
       deliveryTime: "2-4 días",
@@ -72,7 +72,7 @@ export const landingData = {
     {
       id: "web-express",
       title: "Web Express",
-      price: "Desde $150",
+      price: "Desde $150 USD",
       badge: "El más elegido",
       description: "Para profesionales y freelancers que necesitan una presencia completa en Google.",
       features: ["Hasta 5 secciones a medida", "Integración directa a tu WhatsApp", "Dominio propio configurado", "Carga en menos de 1 segundo"],
