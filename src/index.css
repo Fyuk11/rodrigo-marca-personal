@@ -26,13 +26,13 @@
   --border: rgba(242, 241, 237, 0.12);
 }
 
-/* Escala fluida con clamp() */
+/* Escala fluida responsiva corregida */
 .text-hero-title {
-  font-size: clamp(2.75rem, 8vw, 6rem);
+  font-size: clamp(2.1rem, 7.5vw, 6rem);
 }
 
 .text-section-title {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.75rem, 4vw, 3rem);
 }
 
 .bg-grid-pattern {
