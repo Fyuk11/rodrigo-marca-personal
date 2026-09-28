@@ -102,7 +102,7 @@ export const landingData = {
       number: "02",
       title: "Armo estructura, copy y branding",
       time: "Día 2-5",
-      description: "Diseño la interfaz, redacto los textos persuasivos y programo la web en React con IA."
+      description: "Diseño la interfaz, redacto los textos persuasivos y programo la web en React."
     },
     {
       number: "03",

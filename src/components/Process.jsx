@@ -11,9 +11,7 @@ export default function Process() {
         
         {/* Encabezado */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-xs font-mono uppercase tracking-widest text-[var(--accent)] font-semibold">
-            PASO A PASO
-          </span>
+          
           <h2 className="font-display font-bold text-3xl sm:text-5xl text-[var(--text)] mt-3 mb-4 tracking-tight">
             De cero a tu web en <br />
             <span className="text-[var(--accent)]">menos de una semana.</span>
