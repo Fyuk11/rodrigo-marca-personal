@@ -9,8 +9,19 @@ export default function Footer() {
   return (
     <footer id="contacto" className="w-full bg-[var(--bg-alt)] text-[var(--text)] pt-20 pb-12 border-t border-[var(--border)] relative overflow-hidden transition-colors duration-300">
       
+      {/* Imagen de fondo con overlay espejo del Hero */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <img 
+          src="/footer.webp" 
+          alt="Background Footer" 
+          className="w-full h-full object-cover opacity-15 dark:opacity-40 mix-blend-luminosity"
+        />
+        {/* Degradado para integrar suavemente con el fondo */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-alt)] via-[var(--bg-alt)]/80 to-[var(--bg-alt)]/40"></div>
+      </div>
+
       {/* Luz verde/acento de fondo */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[250px] bg-[var(--accent)]/10 blur-[140px] pointer-events-none" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[250px] bg-[var(--accent)]/15 blur-[140px] pointer-events-none" />
 
       <div className="max-w-container mx-auto px-4 sm:px-8 relative z-10 space-y-16">
         
