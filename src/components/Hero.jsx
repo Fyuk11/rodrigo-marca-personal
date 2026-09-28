@@ -11,7 +11,8 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-20 bg-[var(--bg)] transition-colors duration-300">
+    // CAMBIO AQUÍ: pt-28 sm:pt-36 en lugar de pt-20 para dar espacio a la navbar fija
+    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-28 sm:pt-36 pb-12 bg-[var(--bg)] transition-colors duration-300">
       {/* Imagen de fondo con overlay dinámico */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img 
@@ -34,10 +35,10 @@ export default function Hero() {
 
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="space-y-2">
             <span className="block font-display font-bold text-3xl sm:text-5xl text-[var(--muted)] tracking-tight">
-              No eres un PDF.
+              No sos un CURRICULUM.
             </span>
             <h1 className="font-display font-extrabold text-[clamp(3rem,8vw,7.5rem)] leading-[0.9] tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--text)] via-[var(--text)] to-[var(--text)]/60">
-              Eres una <span className="text-[var(--accent)] drop-shadow-[0_0_30px_rgba(14,159,110,0.3)]">Experiencia.</span>
+              Sos más que tu <span className="text-[var(--accent)] drop-shadow-[0_0_30px_rgba(14,159,110,0.3)]">Experiencia.</span>
             </h1>
           </motion.div>
 

@@ -1,0 +1,25 @@
+# Permitir a todos los rastreadores generales
+User-agent: *
+Allow: /
+
+# Permitir rastreadores de Modelos de Inteligencia Artificial
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Ubicación del Sitemap (reemplazá con tu dominio final de Netlify o propio)
+Sitemap: https://rodrigogomez.netlify.app/sitemap.xml
