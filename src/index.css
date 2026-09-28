@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #F5F4F0;
+  --bg-alt: #ECE9E1;
+  --surface: #FFFFFF;
+  --text: #111111;
+  --muted: #5B5B57;
+  --accent: #0E9F6E;
+  --accent-hover: #0B7A55;
+  --line: #111111;
+  --border: rgba(17, 17, 17, 0.10);
+}
+
+.dark {
+  --bg: #121214;
+  --bg-alt: #19191D;
+  --surface: #1B1B1F;
+  --text: #F2F1ED;
+  --muted: #A6A6A0;
+  --accent: #34D399;
+  --accent-hover: #5EE9B5;
+  --line: #F2F1ED;
+  --border: rgba(242, 241, 237, 0.12);
+}
+
+/* Escala fluida con clamp() */
+.text-hero-title {
+  font-size: clamp(2.75rem, 8vw, 6rem);
+}
+
+.text-section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.bg-grid-pattern {
+  background-image: radial-gradient(var(--border) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

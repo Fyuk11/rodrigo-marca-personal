@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/public/logo1.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodrigo Gómez · Identidad Digital, CVs Digitales & Sitios Web</title>
+    <meta name="description" content="Diseño y desarrollo CVs digitales y sitios web para profesionales y marcas personales con código real en React. Sin plantillas genéricas." />
+    <meta name="author" content="Rodrigo Gómez" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://rodrigogomez.dev/" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rodrigogomez.dev/" />
+    <meta property="og:title" content="Rodrigo Gómez · Tu identidad no cabe en un PDF" />
+    <meta property="og:description" content="CVs digitales y sitios web con código real en React para profesionales que buscan destacar." />
+    <meta property="og:image" content="https://rodrigogomez.dev/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rodrigo Gómez · Identidad Digital" />
+    <meta name="twitter:description" content="Diseño y desarrollo de sitios web y CVs digitales con código real." />
+    <meta name="twitter:image" content="https://rodrigogomez.dev/og-image.jpg" />
+
+    <!-- Fuentes: Space Grotesk & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Syne:wght@500;700;800&display=swap" rel="stylesheet" />
+
+    <!-- JSON-LD para SEO Estructurado e Indexación de IA -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Rodrigo Gómez - Identidad Digital",
+        "image": "https://rodrigogomez.dev/og-image.jpg",
+        "@id": "https://rodrigogomez.dev",
+        "url": "https://rodrigogomez.dev",
+        "telephone": "+5491121652703",
+        "priceRange": "$35 - $150+",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "AR"
+        },
+        "description": "Desarrollo de CVs digitales, webs express y experiencias web a medida con React.",
+        "provider": {
+          "@type": "Person",
+          "name": "Rodrigo Gómez",
+          "jobTitle": "Frontend Developer"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios de Desarrollo Web",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "CV Digital",
+                "description": "Estructura de una página con branding simple y copy optimizado."
+              },
+              "price": "35",
+              "priceCurrency": "USD"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Web Express",
+                "description": "Sitio web completo de hasta 5 secciones para profesionales."
+              },
+              "price": "150",
+              "priceCurrency": "USD"
+            }
+          ]
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-bg text-text transition-colors duration-300 font-sans antialiased selection:bg-accent selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
