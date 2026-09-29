@@ -62,7 +62,7 @@ export const landingData = {
     {
       id: "cv-digital",
       title: "CV Digital",
-      price: "$35 - $50 USD",
+      price: "Desde $40 USD",
       description: "Para profesionales que buscan trabajo y quieren destacar en las selecciones.",
       features: ["Copy persuasivo para reclutadores", "Branding simple y distinguido", "Optimizado para celulares", "Link listo para compartir"],
       deliveryTime: "2-4 días",
